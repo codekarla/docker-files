@@ -1,0 +1,9 @@
+version: '1'
+services:
+    app:
+        container_name: docker-nodejs
+        restart: always
+        build: .
+        ports: 
+            - '80:3000'
+            
